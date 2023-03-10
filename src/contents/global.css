@@ -1,0 +1,26 @@
+:root {
+  --blur-value: 10px;
+}
+
+.___blurelement-hover {
+  cursor: pointer;
+  box-shadow: rgb(0, 123, 255) 0px 0px 0px 0.2rem;
+}
+
+.___blurelement-blur {
+  -webkit-filter: blur(var(--blur-value));
+  -moz-filter: blur(var(--blur-value));
+  -ms-filter: blur(var(--blur-value));
+  -o-filter: blur(var(--blur-value));
+  filter: blur(var(--blur-value));
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}

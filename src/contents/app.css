@@ -1,0 +1,24 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.blurry {
+  @apply fixed bottom-0 left-0 right-0 flex;
+}
+
+.blurry .blurry-toolbar {
+  @apply border rounded-lg py-1 px-3 mb-10 mx-auto bg-gray-800 flex justify-between w-[250px];
+}
+
+.blurry .blurry-toolbar .blurry-toolbar-menu {
+  @apply hover:text-white p-3 rounded-full text-white text-center flex flex-col justify-center items-center cursor-pointer;
+}
+
+.blurry .blurry-toolbar .blurry-toolbar-menu.active {
+  @apply text-red-500;
+}
+
+.blurry .blurry-toolbar .blurry-toolbar-menu-label {
+  @apply mt-1 text-[10px];
+}
+

@@ -1,4 +1,6 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+This is a [Blurry extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+
+[![Blurry - Blur any sensitive data](https://cdn.loom.com/sessions/thumbnails/52dbd99daeed41758aeddff60cd65596-with-play.gif)](https://www.loom.com/share/52dbd99daeed41758aeddff60cd65596 "Blurry - Blur any sensitive data")
 
 ## Getting Started
 
